@@ -1,0 +1,34 @@
+[
+    {
+        "key": "ctrl+alt+m",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && (editorLangId == 'css' || editorLangId == 'scss')",
+        "args": {
+            "snippet": "@media (max-width: 1300px) {\n\t$0\n}\n\n@media (min-width: 371px) and (max-width: 1300px) {\n\n}\n\n@media (min-width: 577px) and (max-width: 1300px) {\n\n}\n\n@media (min-width: 769px) and (max-width: 1300px) {\n\n}\n\n@media (min-width: 992px) and (max-width: 1300px) {\n\n}\n\n@media (min-width: 1181px) and (max-width: 1300px) {\n\n}"
+        }
+    },
+    {
+        "key": "ctrl+q",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == 'javascript' || editorLangId == 'typescript'",
+        "args": {
+            "snippet": "console.log($0);"
+        }
+    },
+    {
+        "key": "ctrl+w",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == 'javascript' || editorLangId == 'typescript'",
+        "args": {
+            "snippet": "function(e) {\n\t$0\n}"
+        }
+    },
+    {
+        "key": "ctrl+q",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == 'php'",
+        "args": {
+            "snippet": "echo $0;"
+        }
+    }
+]

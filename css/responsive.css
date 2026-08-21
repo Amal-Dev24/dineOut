@@ -1,0 +1,428 @@
+@media (max-width: 1300px) {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    header #carouselExampleCaptions .carousel-item .carousel-caption {
+        width: 100%;
+    }
+
+    header #carouselExampleCaptions .home1 .carousel-caption p {
+        width: 90%;
+    }
+
+    header #carouselExampleCaptions .home2 .box2 {
+        display: none;
+    }
+
+    header #carouselExampleCaptions .home3 .part2 .item .h2 {
+        width: 100%;
+
+    }
+
+    header #carouselExampleCaptions .carousel-control-prev {
+        right: 25%;
+    }
+
+    .type {
+        overflow-x: scroll;
+    }
+
+    .type .box {
+        min-width: 97.462px;
+
+    }
+
+    .type .box .item .image {
+        width: 60%;
+
+    }
+
+    section.vedio::after {
+
+        background-color: rgba(0, 0, 0, 1);
+
+
+    }
+
+    section.vedio .container .group .row .box:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    section#menu .group {
+        width: 100%;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    section#menu .group .nav {
+        flex-direction: column;
+        width: 90%;
+        overflow-x: scroll;
+        margin: auto;
+        margin-bottom: 30px;
+        gap: 1px;
+
+    }
+
+    section#menu .group .box {
+
+        min-width: 90px;
+    }
+
+    section#menu .group .nav .nav-link::after {
+        position: absolute;
+        content: "";
+        bottom: -100%;
+        left: 50%;
+        border: 50px solid transparent;
+        transform: translateX(-50%);
+
+        transition-duration: 1s;
+
+        border-bottom-color: #fff;
+    }
+
+    section#menu .group .nav .nav-link.active::after {
+        bottom: 0px;
+    }
+
+    section#menu .group .box:not(:last-child) {}
+
+    section#menu .group .box:nth-of-type(1) .item {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    section#menu .group .box:nth-of-type(7) .item {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    section#menu .group .tab-pane .row .card .item .text .details .part1 {
+        font-size: 16px;
+    }
+
+    section#menu .group .tab-pane .row .card .item .text .details:not(.second) .part2 {
+        font-size: 16px;
+    }
+
+    section#team .row .box {
+        margin-bottom: 60px;
+    }
+
+    section#team .row .box .text {
+
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -10%;
+        width: 80%;
+
+
+
+    }
+
+    section#order .row {
+        width: 100%;
+    }
+
+    section#order .box1 .end {
+        padding: 15px 0px;
+        width: 100%;
+
+    }
+
+    section#order .row form {
+        width: 100%;
+
+
+
+    }
+
+    section#order .row .box .item img {
+        display: none;
+    }
+
+
+
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    header #carouselExampleCaptions .home1 .carousel-caption p {
+        width: 80%;
+    }
+
+    header #carouselExampleCaptions .home2 .box1 .item .part1 p {
+        width: 70%;
+    }
+
+    header #carouselExampleCaptions .carousel-control-prev {
+        right: 20%;
+    }
+
+    section.vedio .container .group .row .box .item {
+        width: 70%;
+
+    }
+
+    section#menu .group .tab-content .tab-pane .row .card .item {
+        width: 70%;
+        margin: auto;
+
+
+    }
+
+    section#team .row .box .item {
+        width: 80%;
+        margin: auto;
+    }
+
+
+
+    section#team .row .box .text {
+
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -10%;
+        width: 70%;
+
+
+
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    header #carouselExampleCaptions .home1 .carousel-caption p {
+        width: 60%;
+    }
+
+    header #carouselExampleCaptions .home2 .box1 .item {
+        padding: 0px 50px;
+    }
+
+    header #carouselExampleCaptions .home3 .part2 .item .h2 {
+        width: 70%;
+
+    }
+
+    header #carouselExampleCaptions .carousel-control-prev {
+        right: 15%;
+    }
+
+    section.vedio .container .group .row .box .item {
+        width: 90%;
+
+    }
+
+    section#menu .group {
+        width: 100%;
+        width: 100vw;
+    }
+
+    section#menu .group .nav {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+        gap: 1px;
+        overflow: hidden;
+    }
+
+    section#menu .group .nav .box .i {
+
+        width: calc(100%/7);
+    }
+
+    section#team .row .box .item {
+        width: 70%;
+        margin: auto;
+    }
+
+
+
+    section#team .row .box .text {
+
+        left: 45%;
+
+
+        bottom: -10%;
+        width: 50%;
+
+
+
+    }
+
+    section#order .row {
+        width: 90%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    header #carouselExampleCaptions .home1 .carousel-caption p {
+        width: 55%;
+    }
+
+    header #carouselExampleCaptions .home2 .box1 .item .part1 p {
+        width: 90%;
+    }
+
+    header #carouselExampleCaptions .home2 .box1 .item {
+        padding: 0px;
+    }
+
+    header #carouselExampleCaptions .home2 .box2 {
+        display: initial;
+    }
+
+    header #carouselExampleCaptions .home2 .box2 .item {
+        width: 90%;
+        height: 50%;
+
+    }
+
+    header #carouselExampleCaptions .home3 .part2 .item .h2 {
+        width: 100%;
+
+    }
+
+    header #carouselExampleCaptions .carousel-control-prev {
+        right: 13%;
+    }
+
+    .type .box {
+        width: calc(100%/7);
+
+    }
+
+    section.vedio::after {
+
+        background-color: rgba(0, 0, 0, 0.7);
+
+
+    }
+
+    section#menu .group .tab-content .tab-pane .row .card .item {
+        width: 85%;
+        margin: auto;
+
+
+    }
+
+    section#team .row .box .item {
+        width: 95%;
+        margin: auto;
+    }
+
+
+
+    section#team .row .box .text {
+
+        left: 50%;
+
+
+        bottom: -10%;
+        width: 75%;
+
+
+
+    }
+
+    section#order .row .box .item img {
+        display: initial;
+    }
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    header #carouselExampleCaptions .home1 .carousel-caption p {
+        width: 60%;
+    }
+
+    header #carouselExampleCaptions .home2 .box2 .item {
+        height: 70%;
+
+    }
+
+    section#menu .group .nav {
+        overflow: none;
+        width: 8%;
+        padding: 1px;
+
+
+
+    }
+
+    section#menu .group .nav .nav-link::after {
+        position: absolute;
+        content: "";
+        right: -20px;
+        top: 50%;
+        border: 50px solid transparent;
+        transform: translateY(-50%);
+
+        transition-duration: 0.5s;
+
+        border-right-color: #fff;
+    }
+
+    section#menu .group .nav .nav-link.active::after {
+        right: 0px;
+    }
+
+    section#menu .group .box:not(:last-child) {
+        margin-bottom: 1px;
+    }
+
+    section#menu .group .box:nth-of-type(1) .item {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    section#menu .group .box:nth-of-type(7) .item {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    section#menu .group .tab-content .tab-pane .row .card .item {
+        width: 95%;
+        margin: auto;
+
+
+    }
+
+    section#team .row .box .item {
+        width: 95%;
+        margin: auto;
+    }
+
+
+
+    section#team .row .box .text {
+
+        left: 50%;
+
+
+        bottom: -10%;
+        width: 75%;
+
+
+
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+    header #carouselExampleCaptions .home1 .carousel-caption p {
+        width: 50%;
+    }
+
+    header #carouselExampleCaptions .home2 .box2 .item {
+        width: 90%;
+
+    }
+
+    header #carouselExampleCaptions .home3 .part1 .item {
+        width: 80%;
+    }
+}

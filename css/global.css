@@ -1,0 +1,86 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lexend", sans-serif;
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Dancing Script", cursive;
+}
+
+.title {
+    width: fit-content;
+    margin: auto;
+}
+
+.title h5 {
+    font-size: clamp(18px, 3vw, 25px);
+}
+
+.title p {
+    font-size: clamp(35px, 8vw, 40px);
+}
+
+.title .style span {
+
+    width: calc(100%/3);
+    height: 3px;
+    background-color: #FFF;
+}
+
+.title .style .image {
+    width: calc(100%/3);
+    position: relative;
+    transform: translateY(-50%);
+}
+
+
+a {
+    padding: 10px 25px;
+    overflow: hidden;
+}
+
+a span.shape,
+section#order .row form button span.shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    background-color: #F1B601;
+    transition-duration: 0.5s;
+}
+
+a:hover span.shape,
+section#order .row form button:hover span.shape {
+    transform: translateX(0%);
+}
+
+a span.text,
+section#order .row form button span.text {
+    transition-duration: 0.5s;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+a:hover span.text,
+section#order .row form button:hover span.text {
+    color: #FFF;
+}
