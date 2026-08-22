@@ -286,7 +286,7 @@ header #carouselExampleCaptions .home2 .box1 .item {
 header #carouselExampleCaptions .home2 .box1 .item .part1 .image {
     position: absolute;
     left: 50%;
-    top: -50%;
+    top: -150%;
     transform: translate(-50%, -50%);
     width: 40%;
     transition-duration: 1s;
@@ -445,7 +445,7 @@ header #carouselExampleCaptions .home3 .part2 .item .h2 {
     width: 80%;
     font-weight: 700;
     position: relative;
-    transform: translateY(-200%);
+    transform: translateY(-500%);
     transition-duration: 1s;
 }
 
