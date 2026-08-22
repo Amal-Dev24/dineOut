@@ -866,6 +866,7 @@ section#menu .group .tab-pane.show .row .card .item .text .details .part1 {
 
 section#menu .group .tab-pane .row .card .item .text .details:not(.second) .part2 {
     position: relative;
+    color: #C1C1C1;
     transform: translateX(-100%);
     opacity: 0;
     transition-duration: 1s;
