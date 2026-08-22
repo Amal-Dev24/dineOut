@@ -987,7 +987,9 @@ section#team .row .box .item:hover+.text p {
     color: #fff;
 
 }
-
+section#team .row .box .text h6 {
+    color: #FFF;
+}
 section#order {
     background-image: url(../images/bg_wood.jpg);
     overflow: hidden;
