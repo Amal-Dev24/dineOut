@@ -408,9 +408,7 @@ header #carouselExampleCaptions .home3 .part2 {
 header #carouselExampleCaptions .home3 .part1 .item {
     width: 80%;
     margin: auto;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    height: 85%;
 }
 
 header #carouselExampleCaptions .home3 .part1 .item .image {
@@ -435,9 +433,6 @@ header #carouselExampleCaptions .home3 .part1 .item img {
 header #carouselExampleCaptions .home3 .part2 .item {
     width: 95%;
     margin: auto;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
 }
 
 header #carouselExampleCaptions .home3 .part2 .item .h2 {
