@@ -408,7 +408,7 @@ header #carouselExampleCaptions .home3 .part2 {
 header #carouselExampleCaptions .home3 .part1 .item {
     width: 80%;
     margin: auto;
-    height: 85%;
+    height: 80%;
 }
 
 header #carouselExampleCaptions .home3 .part1 .item .image {
@@ -422,7 +422,7 @@ header #carouselExampleCaptions .home3.active .part1 .item .image {
 }
 
 header #carouselExampleCaptions .home3 .part1 .item img {
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-name: animate2;
     animation-iteration-count: infinite;
     animation-direction: alternate;
