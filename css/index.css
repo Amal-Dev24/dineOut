@@ -651,7 +651,7 @@ header #carouselExampleCaptions .carousel-control-next:focus i {
     position: absolute;
     left: 50%;
     top: 50%;
-    font-size: clamp(14px, 50px, 100px);
+    font-size: clamp(14px, 30px, 60px);
     transform: translate(-50%, -50%);
     font-weight: 800;
 
