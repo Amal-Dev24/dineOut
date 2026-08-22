@@ -296,7 +296,7 @@ header #carouselExampleCaptions .home2 .box1 .item .part1 .image {
 header #carouselExampleCaptions .home2.active .box1 .item .part1 .image {
     position: absolute;
     left: 50%;
-    top: -2%;
+    top: -3%;
     transform: translate(-50%, -50%);
     width: 40%;
 }
