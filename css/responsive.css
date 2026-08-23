@@ -38,17 +38,20 @@
 
     }
 
-    section.vedio::after {
+    section.vedio {
+        background-color: #050B0D;
+    }
 
-        background-color: rgba(0, 0, 0, 1);
-
-
+    section.vedio video {
+        display: none;
     }
 
     section.vedio .container .group .row .box:not(:last-child) {
         margin-bottom: 30px;
     }
-
+    section.vedio .container .group .row .box .item h4 {
+        font-size: 18px;
+    }
     section#menu .group {
         width: 100%;
         width: 100vw;
@@ -293,14 +296,18 @@
         width: calc(100%/7);
 
     }
-
-    section.vedio::after {
-
-        background-color: rgba(0, 0, 0, 0.7);
-
-
+    }
+    section.vedio {
+        background-color: none;
     }
 
+    section.vedio video {
+        display: initial;
+    }
+
+    section.vedio .container .group .row .box .item h4 {
+        font-size: 14px;
+    }
     section#menu .group .tab-content .tab-pane .row .card .item {
         width: 85%;
         margin: auto;
@@ -344,7 +351,9 @@
         height: 70%;
 
     }
-
+    section.vedio .container .group .row .box .item h4 {
+        font-size: 20px;
+    }
     section#menu .group .nav {
         overflow: none;
         width: 8%;
