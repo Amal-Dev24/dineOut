@@ -241,13 +241,18 @@
         margin: auto;
     }
 
+section#team .row .box .text {
+
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -10%;
+        width: 40%;
 
 
-    section#team .row .box .text {
-
-        width: 50%;
 
     }
+
+   
 
     section#order .row {
         width: 90%;
