@@ -245,13 +245,7 @@
 
     section#team .row .box .text {
 
-        left: 45%;
-
-
-        bottom: -10%;
         width: 50%;
-
-
 
     }
 
@@ -323,14 +317,7 @@
 
 
     section#team .row .box .text {
-
-        left: 50%;
-
-
-        bottom: -10%;
         width: 75%;
-
-
 
     }
 
@@ -404,20 +391,6 @@
     section#team .row .box .item {
         width: 95%;
         margin: auto;
-    }
-
-
-
-    section#team .row .box .text {
-
-        left: 50%;
-
-
-        bottom: -10%;
-        width: 75%;
-
-
-
     }
 }
 
