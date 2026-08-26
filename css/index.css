@@ -961,16 +961,17 @@ section#team .row .box .item:hover {
 
     transform: skewY(5deg);
 }
-
 section#team .row .box .text {
     background-image: linear-gradient(to right, #2C5364 20%, #13262E);
-    left: 0.5%;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 0%;
     width: 85%;
 
     transition-duration: 0.5s;
 
 }
+
 
 section#team .row .box .item:hover+.text {
     bottom: 5%;
